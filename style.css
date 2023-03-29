@@ -1,0 +1,104 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*Resetie el padding y el margin*/
+}
+
+body {
+    background-color: #e0e0e0;
+    font-family: 'Noto Sans', sans-serif
+}
+
+h2 {
+    color: rgb(70, 43, 226);
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+}
+
+.link-activo {
+    color: #1342BC;
+}
+
+button {
+    border: 1px solid #1342BC;
+    background-color: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+    color:#000000;
+}
+button:hover {
+    background-color: #4575D2;
+    color:aliceblue;
+    font-weight: bolder;
+}
+
+.Menu {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.links_container {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.link {
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: rgb(22, 61, 254);
+}
+
+h4 {
+    color:#828EFF;
+    text-decoration: none;
+}
+.tittle_text{
+    font-weight: bold;
+    width: 500px;
+    top: auto;
+    font-weight: 900;
+    display: flex;
+    color: black;
+}
+.container_hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    justify-content: space-around;
+    height: auto;
+    padding: 3% 12% 3% 12%;
+}
+.lorem{
+    color: #777;
+    padding-right: 20%;
+}
+.button_2 button{
+    color: #4575D2;
+}
+.imagen img{
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    gap: 18px;
+}
+
